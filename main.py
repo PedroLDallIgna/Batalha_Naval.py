@@ -82,30 +82,6 @@ while enter == '':       ##LOOP RESPONSAVEL POR CONTINUAR O JOGO
         for i in range(40):
             print()
         printTab(initialMatriz1, initialMatriz2, matrizSize, vezes)
-        # if player == vezes[0]:
-        #     print()
-        #     print(vezes[0])
-        #     print("    " + " ".join([chr(65 + l) for l in range(matrizSize)]) + (" " * 5))
-        #     x = 1
-        #     for line in initialMatriz1:
-        #         if x < 10:
-        #             print(str(x) + "   " + "".join(line) + (" " * 4))
-        #         else:
-        #             print(str(x) + "  " + "".join(line) + (" " * 4))
-        #         x += 1
-        #     print()
-        # else:
-        #     print()
-        #     print(vezes[1])
-        #     print("    " + " ".join([chr(65 + l) for l in range(matrizSize)]) + (" " * 5))
-        #     x = 1
-        #     for line in initialMatriz2:
-        #         if x < 10:
-        #             print(str(x) + "   " + "".join(line) + (" " * 4))
-        #         else:
-        #             print(str(x) + "  " + "".join(line) + (" " * 4))
-        #         x += 1
-        #     print()
 
     vez = choice(vezes)       ##ESCOLHA DA VEZ DE QUEM COMECARA ATRAVES DA FUNCAO choice QUE ESCOLHE UM TERMO ALEATORIAMENTE
     print("-"*121)
